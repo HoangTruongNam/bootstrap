@@ -1,0 +1,35 @@
+
+.sect{
+    margin-top: 8%;
+    margin-right: 6%;
+    margin-bottom: 4%;
+  }
+@media(max-width:992px){
+    .phone-section{
+        flex-direction: column;
+    }
+    .mobile-nav{
+        display: block;
+        padding-left: 2%;
+    }
+    .mobile-nav:hover{
+        background-color: #C31012;
+        
+        
+    }
+    .sect{
+        margin-top: 15%;
+        
+      }
+    .pc-nav{
+        display: none;
+    }
+    #sun-logo{
+        margin-left: 0;
+        
+    }
+    .card{
+        margin-bottom: 4%;
+    }
+
+}

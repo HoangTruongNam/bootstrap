@@ -1,0 +1,41 @@
+.counter
+{
+    font-size:100px;
+    color: #C31012;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 4%;   
+     
+}
+.counter-content {
+    font-weight: normal;
+    font-size: 30px;
+    color: #D8DADC;
+}
+    
+.subsup-container {
+    position: relative;
+    display: inline-block;
+    font-size: 5px;
+}
+.subscript {
+    position:relative;
+    bottom: -0.00em;
+    top: 3em;
+    font-size: 0.5em;
+    font-size: 30px
+    
+}
+.superscript {
+    position: absolute;
+    top: 0.6em;
+    font-size: 50px;
+    left: 10px
+}
+
+.see-all-project-btn
+{
+    max-width: 35%;
+    margin-top: 4%;
+    margin-left: 7%;
+}
