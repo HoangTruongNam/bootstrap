@@ -43,13 +43,14 @@
 }
 
 .bton{
-position: absolute;
+    position: absolute;
+        
+    display: flex;
     
-display: flex;
-   
-right: 5%;
-top: 26px;
+    right: 5%;
+    top: 26px;
 }
+
 .lang-btn {
     appearance: none;
     background-color: transparent;

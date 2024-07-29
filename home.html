@@ -11,6 +11,9 @@
     <link href="responsive-phone.css" rel="stylesheet" type="text/css">
     <link href="our_project.css" rel="stylesheet" type="text/css">
     <link href="join-btn.css" rel="stylesheet" type="text/css">
+    <link href="career.css" rel="stylesheet" type="text/css">
+    <link href="footer.css" rel="stylesheet" type="text/css">
+    <link href="workenv.css" rel="stylesheet" type="text/css">
 
 
     <title>Sun's homepage</title>
@@ -22,7 +25,7 @@
     <nav class="navbar navbar-expand-lg fixed-top ">
       <div class="no-padding container-fluid-md container-lg">
         
-        <img class="navbar-brand" id="sun-logo" src="https://sun-asterisk.vn/wp-content/uploads/2020/10/logo-sun@2x.png" alt="">
+        <img class="navbar-brand margin-set" id="sun-logo" src="https://sun-asterisk.vn/wp-content/uploads/2020/10/logo-sun@2x.png" alt="">
         
         <button id="nav-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -75,7 +78,7 @@
   </section>
 
   <section id="ourbusiness-section" class="container sect">
-    <h2 class=""><strong>Our Business</strong></h2>
+    <h2 class="container margin-set"><strong>Our Business</strong></h2>
     <div class="intro-content margin-set intro-box d-lg-flex flex-lg-row flex-column  " >
         <p id="obp" >
             <br>
@@ -123,40 +126,272 @@
     </div>
   </section>
 
-  <section class=" sect">
+  <section class=" sect container">
     <div class="circle" id="decorate-circle3"></div>
-    <h2 class="container"><strong>Our Project</strong></h2>
-    <div class="container">
-
-      <div class="mobile-section " >
-        <div>
-            <div class="margin-set d-flex">
-                <div class="counter " id="counter" >
-                    <!-- counts -->
+    <h2 class="container margin-set"><strong>Our Project</strong></h2>
+    <div class="container d-flex">
+      <div class="container">
+        <div class="mobile-section margin-set " >
+          <div>
+              <div class=" d-flex">
+                  <div class="counter " id="counter" >
+                      <!-- counts -->
+                  </div>
+                  <p class="counter subsup-container" >
+                      <sub class="counter-content subscript">Clients</sub>
+                      <sup class="superscript" >++</sup>
+                  </p>
+              </div>
+      
+              <div class=" d-flex">
+                  <div class="counter " id="counter2" >
+                      <!-- counts -->
+                  </div>
+                  <p class="counter subsup-container">
+                      <sub class="counter-content subscript"> Supported Services</sub>
+                      <sup class="superscript"  >++</sup>
+                  </p>
+              </div>
+          </div>
+        </div>
+  
+        <button class=" see-all-project-btn btn btn-reverse margin-set;">
+          See all project <span class="arrow"> &#8594;</span>
+        </button>
+      </div>
+      <div class="slider">
+        <div class="slide active">
+            <div class="slide-content">
+                <div class="slide-text">
+                    <div class="subcript content-text">Kurashicom inc</div>
+                    <h2 class="content-text"> KURASHICOM Project </h2>
+                    <p class="content-text">App development helps to realize the lifestyle that you want</p>
                 </div>
-                <p class="counter subsup-container" >
-                    <sub class="counter-content subscript">Clients</sub>
-                    <sup class="superscript" >++</sup>
-                </p>
-            </div>
-    
-            <div class="margin-set d-flex">
-                <div class="counter " id="counter2" >
-                    <!-- counts -->
+                <div class="slide-image">
+                    <img style="opacity: 0.2" src="https://sun-asterisk.vn/wp-content/uploads/2021/05/Kurashicom.png" alt="Slide 1">
                 </div>
-                <p class="counter subsup-container">
-                    <sub class="counter-content subscript"> Supported Services</sub>
-                    <sup class="superscript"  >++</sup>
-                </p>
             </div>
         </div>
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-text">
+                    <div class="subcript content-text">ZENKIGEN Company Limited</div>
+                    <h2 class="content-text"> HARUTAKA Project </h2>
+                    <p class="content-text">“HARUTAKA” allows companies and job seekers/ applicants to interview on the web or in video at any time, in any place.</p>
+                </div>
+                <div class="slide-image">
+                    <img style="opacity: 0.2" opacity: 0.2; src="https://sun-asterisk.vn/wp-content/uploads/2021/05/zenkigen_01.png" alt="Slide 2">
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-text">
+                    <div class="subcript content-text">SSK Company Limited</div>
+                    <h2 class="content-text"> SSK Project </h2>
+                    <p class="content-text">TChallenge to energize people and society with sports data.</p>
+                </div>
+                <div class="slide-image">
+                    <img style="opacity: 0.2" src="https://sun-asterisk.vn/wp-content/uploads/2021/05/Untitled-1-3.png" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-prev">&#10094;</button>
+            <button class="slider-next">&#10095;</button>
+        </div>
+        
       </div>
-
-      <button class=" see-all-project-btn btn btn-reverse margin-set;">
-        Xem tất cả dự án <span class="arrow"> &#8594;</span>
-      </button>
     </div>
   </section>
+
+
+  <section  class="sect container">
+    <div class="career-images text-center" >
+        <div class="overlay text-center"> 
+            <div id="c1" class="circle" >
+                <div id="c1-content" class="container">
+                  <div style="  font-size: smaller;">sun asterisk</div> 
+                  <div style=" font-size: 48px;font-weight: 600;">Career</div>
+                </div>
+            </div>
+
+            <div id="career-content1">
+                Join us & MAKE AWESOME THINGS THAT MATTER.
+            </div>
+            <div id="career-content2">
+                Sun* has always been looking for challenge-driven people to create "awesome" values.
+            </div>
+
+            <a href="#" id="join-sun-btn" class="btn  mt-5">join sun* <span class="arrow"> &#8594;</span> </a>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="sect container" >
+  <h2 class="container margin-set"><strong>Working environment</strong></h2>
+  <div class="margin-set phone-section d-flex">
+      <div class="work-env-p container">
+          <div class="workenv-content" >
+              <img src="https://sun-asterisk.vn/wp-content/themes/starter/assets/images/icon-check.svg" alt="">
+              <div>#ActiveChallenge: Actively create continuous challenges.</div>
+
+          </div>
+          <div class="workenv-content">
+              <img src="https://sun-asterisk.vn/wp-content/themes/starter/assets/images/icon-check.svg" alt="">
+              <div>#ActiveLearn: Learning within an organization encompasses all essential components, including the Learning Environment, Learning Opportunities, and Learning Capacity.</div>
+          </div>
+          <div class="workenv-content">
+              <img src="https://sun-asterisk.vn/wp-content/themes/starter/assets/images/icon-check.svg" alt="">
+              <div>#ActiveJoy: Thriving in a cultural environment focused on human values and universal happiness.</div>
+          </div>
+      </div>
+
+      <div>
+          <img class="workenv-img2" src="https://sun-asterisk.vn/wp-content/uploads/2023/09/human-centered.png" alt="">
+          <button class=" workenv-btn btn btn-reverse margin-set;">
+            See all project <span class="arrow"> &#8594;</span>
+          </button>
+      </div>
+  </div>
+</section>
+  
+
+<section class="sect container">
+  <h2 class="container margin-set"><strong>Culture - Event</strong></h2>
+</section>
+
+<footer>
+
+  <div class="container fw-light">
+    <div class="row">
+      <div class="col">
+        <img class="grid-content" style="max-width: 150px; height: auto;" src="https://sun-asterisk.vn/wp-content/uploads/2020/10/logo-sun@2x.png" alt="">
+      </div>
+
+      <div class="col">
+          <div class="title">
+              <div 
+                  class="footer-circle">
+              </div>
+              who are we ?</div>
+          <div class="grid-list">
+              <div class="g-item">
+                  Vision, mission
+              </div>
+              <div class="g-item"> 
+                  Core values
+              </div>
+              <div class="g-item">
+                  The meaning of the name Sun*
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+          <div class="title">
+              <div 
+                  class="footer-circle">
+              </div>
+              What do we do?
+            </div>
+          <div class="grid-list">
+              <div class="g-item">
+                Creative & Engineering
+              </div>
+              <div class="g-item"> 
+                  Talent Platform
+              </div>
+              <div class="g-item">
+                  Our projects
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="title">
+              <div 
+                  class="footer-circle">
+              </div>
+              Updated News
+          </div>
+          <div class="grid-list">
+              <div class="g-item">
+                  Culture - Events
+              </div>
+              <div class="g-item"> 
+                  Recruitment
+              </div>
+              <div class="g-item">
+                  Benefits and perks
+              </div>
+          </div>
+          
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+      </div>
+
+      <div class="col">
+        <div class="grid-content">
+          <div class="title">
+              <div 
+                  class="footer-circle">
+              </div>
+              Contact
+          </div>
+          <div class="grid-list">
+              <div class="g-item">
+                  Phone: 84-24-3795-5417
+              </div>
+              <div class="g-item"> 
+                  Email: hr@sun-asterisk.com
+              </div>
+              
+          </div>
+          
+      </div>
+      </div>
+
+      <div class="col-6">
+          <div class="title">
+              <div 
+                  class="footer-circle">
+              </div>
+              Office
+          </div>
+          <div class="grid-list">
+              <div class="g-item">
+                  T13, Keangnam Hanoi Landmark Tower, Pham Hung, Nam Tu Liem, Hanoi
+              </div>
+              <div class="g-item"> 
+                  4F, FHome Building, 16 Ly Thuong Kiet Str., Hai Chau district, Da Nang
+              </div>
+              <div class="g-item">
+                  9th Floor, L'Mak Long Tower, 101-103 Nguyen Cuu Van, Ward 17, Binh Thanh District, Ho Chi Minh City
+
+              </div >
+              <div class="g-item">
+                  Tokyo Office - Cebu Office - Phnom Penh Office
+              </div>
+          </div>
+          
+      
+      </div>
+      
+    </div>
+  </div>
+</footer>
+<div class="space">  
+  <div class="container p-3 d-flex ">
+    <img class=" margin-set footer-img" src="https://sun-asterisk.vn/wp-content/uploads/2020/10/bear-footer@2x.png" alt="">
+    <div class="trademark d-flex">@ 2020 Sun-asterisk. All rights reserved.</div>
+  </div>
+</div>
 
 </body>
 
@@ -204,8 +439,6 @@
 .circle
 {
   border-radius: 50%; 
-  position: absolute;
-  
 }
 
 .arrow{
