@@ -1,0 +1,31 @@
+.intro-box{
+    border-radius: 15px;
+    box-shadow: 0 0 0 5px #f7f7f7;
+}
+.intro-content{
+    margin-top: 4%;
+    /* margin-inline: 6%; */
+
+}
+#obp{
+    padding-right: 20%; 
+    padding-left: 10%; 
+    padding-bottom: 10%;
+}
+.business-img{
+    object-fit: contain; 
+    max-width: 35%; 
+    height: auto; 
+    scale: 1.5;
+
+}
+
+@media(max-width:992px){
+    .business-img{
+       
+        margin-left: 30%;
+        max-width: 50%;
+
+    }
+
+}

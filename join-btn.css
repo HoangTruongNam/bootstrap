@@ -1,0 +1,18 @@
+.join-btn {
+    position: fixed; 
+    bottom: 125px; 
+    right: 25px; 
+    z-index: 99;
+    background-color:#C31012; 
+    color: white; 
+    border: 8px solid #f9f9f9;
+    cursor: pointer;  
+    border-radius: 50%; 
+    font-size: 14px; 
+    font-weight: 500;
+    height: 76px;
+    width: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
