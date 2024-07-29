@@ -5,6 +5,8 @@
     border-radius: 15px;
     max-width: 100%;
     display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 .card-reverse{
@@ -22,6 +24,7 @@
     height: 38px;
     top :-13px;
     left: -20px;
+    position: absolute;
     z-index: -1;
 }
 
@@ -31,6 +34,7 @@
     height: 66px;
     top: -30px;
     right: 45px;
+    position: absolute;
     z-index: 2;
 }
 
@@ -40,6 +44,7 @@
     height: 38px;
     top: 50px;
     right: -105px;
+    position: absolute;
     z-index: 2;
 }
 #decorate-circle3{
@@ -48,6 +53,7 @@
     height: 38px;
     z-index: 2;
     transform: translateY(-60px);
+    position: absolute;
     left: 450px;;
     
 }
