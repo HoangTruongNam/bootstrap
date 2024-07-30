@@ -1,0 +1,41 @@
+.cultr-btn {
+    max-width: 40%; 
+    margin: 4% auto;
+}
+
+#cultr-card {
+    width: 20rem;
+    background-color: transparent;
+    padding: 1%;
+    color: black;
+    border:solid 1px #ffffff;
+}
+
+#cultr-card:hover {
+    border:solid 1px #dcdcdc;
+}
+#cultr-seemore {
+    padding: 0;
+    justify-content: flex-start;
+    color: #C31012;
+}
+
+#cultr-seemore:hover {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px;
+}
+
+#cultr-content {
+    color: #b8b8b8;
+    font-size: smaller;
+}
+
+@media(max-width:992px) {
+    #cultr-card {
+        padding: 0%;
+    }
+
+    #cultr-content {
+        display: none;
+    }
+}

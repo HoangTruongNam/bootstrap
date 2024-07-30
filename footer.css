@@ -1,11 +1,12 @@
-footer{
+footer {
     background-color: #f7f7f7; 
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 8%;
     padding-bottom: 50px;
 }
-.footer-circle{
+
+.footer-circle {
     border-radius: 50%; 
     background-color: #92929230;
     width: 38px;
@@ -14,31 +15,39 @@ footer{
     transform: translate(-16px, -7px);
     z-index: 1;
 }
-.title{
+
+.footer-sun {
+    margin-bottom: 8%;
+    max-width: 150px; 
+    height: auto
+}
+
+.title {
     color: #4d5969;
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 5%;
 
 }
-.grid-list{
+.grid-list {
     color: #949ba4;
     margin-bottom: 10%
 }
 
-.g-item{
+.g-item {
     margin-bottom: 5%
 }
-.space{
+
+.space {
     border-top: 1px solid #d7d7d777;
     background-color: #f7f7f7;
 }
-.footer-img
-{
+
+.footer-img {
     max-height: 40px;
 }
 
-.trademark{
+.trademark {
     color: #949ba4;
     align-items: center;
     font-size: smaller;

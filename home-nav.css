@@ -1,52 +1,46 @@
 *{
     font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
 }
 
-.navbar{
+.navbar {
     background-color: white;
 }
-#sun-logo{
-    
+
+#sun-logo {
     max-width: 120px; 
     height: auto;
-    /* margin-left: 7%; */
-    margin-top: 1%;
-    
+    margin-top: 1%;    
 }
+
 .pc-nav{
     margin-left: 2%;
-    transform: translateY(-4px);
+    transform: translate(-55px,-6px);
     border-top: 4px solid white;
     padding-top: 20px;
-
 }
-.pc-nav:hover{
+
+.pc-nav:hover {
     border-top: 4px solid #C31012;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-
 }
 
-
-.mobile-nav{
+.mobile-nav {
     padding-left: 5%;
     display: none;
 }
 
-.no-padding{
+.no-padding {
     padding: 0;
 }
 
-#nav-btn{
+#nav-btn {
     transform: translateX(-150px);
 }
 
-.bton{
+.bton {
     position: absolute;
-        
     display: flex;
-    
     right: 5%;
     top: 26px;
 }
@@ -75,11 +69,12 @@
     will-change: transform;
 }
 
-.lang-btn-no-border{
+.lang-btn-no-border {
     border: 0px solid #1A1A1A;
     color: gray;
 }
-.lang-btn-text{
+
+.lang-btn-text {
     text-decoration: none;
     font-size: 10px;
     color: gray;
@@ -87,12 +82,11 @@
 
 }
 
+.lang-btn-text:hover {
+    color: #C31012;
+}
 
 .lang-btn:hover {
     color:#C31012;
     background-color:transparent;
-
 }
-
-
-

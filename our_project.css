@@ -1,5 +1,4 @@
-.counter
-{
+.counter {
     font-size:100px;
     color: #C31012;
     font-weight: 700;
@@ -7,6 +6,7 @@
     margin-top: 4%;   
      
 }
+
 .counter-content {
     font-weight: normal;
     font-size: 30px;
@@ -18,14 +18,15 @@
     display: inline-block;
     font-size: 5px;
 }
+
 .subscript {
     position:relative;
     bottom: -0.00em;
     top: 3em;
     font-size: 0.5em;
     font-size: 30px
-    
 }
+
 .superscript {
     position: absolute;
     top: 0.6em;
@@ -33,15 +34,13 @@
     left: 10px
 }
 
-.see-all-project-btn
-{
+.see-all-project-btn {
     max-width: 35%;
     margin-top: 4%;
     margin-left: 6%;
 }
 
 .slider {
-
     position: relative;
     overflow: hidden;
     max-width: 900px;
@@ -72,11 +71,11 @@
 }
 
 .slide-text {
-    position: absolute;
     flex: 1;
     padding-left: 21px;
     padding-right: 39px;
     padding-top: 340px;
+    position: absolute;
     padding-bottom: 20px;
 }
 
@@ -137,5 +136,17 @@
     .subscript{
         font-size: 20px;
         top: 4.5em;
+    }
+    .slider{
+        margin-top: 10%;
+        transform: translate(0px,0px);
+    }
+    .content-text{
+        transform: translate(10px,-122px);
+        scale: 0.7;
+    }
+    .slide-image img {
+        
+        scale: 9;
     }
 }
